@@ -1,6 +1,10 @@
 #include <stdio.h>
+
 int main()
 {
-    printf("Bienvenue");
+    int a, b;
+    printf("Entrez deux entiers : ");
+    scanf("%d %d", &a, &b);
+    printf("Somme = %d\n", a + b);
     return 0;
 }
